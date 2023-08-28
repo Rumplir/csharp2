@@ -1,0 +1,15 @@
+A:\C#\S09EP05\S09EP05\bin\Debug\net6.0\S09EP05.exe
+A:\C#\S09EP05\S09EP05\bin\Debug\net6.0\S09EP05.deps.json
+A:\C#\S09EP05\S09EP05\bin\Debug\net6.0\S09EP05.runtimeconfig.json
+A:\C#\S09EP05\S09EP05\bin\Debug\net6.0\S09EP05.dll
+A:\C#\S09EP05\S09EP05\bin\Debug\net6.0\S09EP05.pdb
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.csproj.AssemblyReference.cache
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.GeneratedMSBuildEditorConfig.editorconfig
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.AssemblyInfoInputs.cache
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.AssemblyInfo.cs
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.csproj.CoreCompileInputs.cache
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.dll
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\refint\S09EP05.dll
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.pdb
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\S09EP05.genruntimeconfig.cache
+A:\C#\S09EP05\S09EP05\obj\Debug\net6.0\ref\S09EP05.dll
