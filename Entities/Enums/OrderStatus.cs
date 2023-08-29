@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace S09EP05.Entities.Enums
 {
     enum OrderStatus : int
@@ -11,6 +6,6 @@ namespace S09EP05.Entities.Enums
         PendingPayment = 0,
         Processing = 1,
         Shipped = 2,
-        Delivered = 3,
+        Delivered = 3
     }
 }

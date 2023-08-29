@@ -5,6 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace S09EP05.Entities
 {
@@ -42,6 +43,19 @@ namespace S09EP05.Entities
             return sum;
         }
 
-        
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Order moment: {Moment}");
+            sb.AppendLine($"Order status: {Status}");
+            sb.AppendLine($"Client: {Client}");
+            sb.AppendLine("Order Items: ");
+            foreach (OrderItem item in Items)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            sb.AppendLine($"Total Price: {Total():C2}");
+            return sb.ToString();
+        }
     }
 }

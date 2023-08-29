@@ -18,8 +18,7 @@ namespace S09EP05
             Console.WriteLine();
             Console.WriteLine("Enter order data: ");
             Console.Write("Status: ");
-            string status = Console.ReadLine();
-            OrderStatus os = Enum.Parse<OrderStatus>(status);
+            OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
             Console.Write("How many items to this order: ");
             int qntOrder = int.Parse(Console.ReadLine());
 
@@ -43,16 +42,8 @@ namespace S09EP05
 
             }
             Console.WriteLine();
-            Console.WriteLine($"Order moment: {order.Moment}");
-            Console.WriteLine($"Order status: {os}");
-            Console.WriteLine($"Client: {client}");
-            Console.WriteLine("Order Items: ");
-
-            for (int i = 0;i < qntOrder;i++)
-            {
-                Console.WriteLine(order.Items[i]);
-            }
-            Console.WriteLine($"Total price: {order.Total():C2}");
+            Console.WriteLine("SUMMARY:");
+            Console.WriteLine(order);
         }
     }
 }
